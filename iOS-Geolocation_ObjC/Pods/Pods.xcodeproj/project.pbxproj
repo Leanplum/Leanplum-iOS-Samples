@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564BA8775B034FDB6350CE56B771295D /* Pods-iOS-Geolocation_ObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB023DB00AF9497B402E39E085F8FEC /* Pods-iOS-Geolocation_ObjC-dummy.m */; };
+		6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8CB16DE921CEEF5395E0C86FF80FBB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B489A25BCE3CBAED96215968EA3B54BB /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0469ABEE63A932EC953BC8C596F57913 /* Leanplum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Leanplum.framework; sourceTree = "<group>"; };
+		08C9DA1F76CDA8E0ED8564CAF85224DB /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		12931EFFC792068AFFB6F94EC07B668E /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		25DF44283720AFBFA00B78E10F4F859D /* Pods-iOS-Geolocation_ObjC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Geolocation_ObjC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CDEF82A298427FE4B439DFB7314870D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4036304D2CE0F348FAA3C1E5D6F47603 /* Pods-iOS-Geolocation_ObjC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Geolocation_ObjC-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BC793CE56A4A90EBED31846723584FB /* LeanplumLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LeanplumLocation.framework; sourceTree = "<group>"; };
+		610B1EFBB457167B0C2B4F2FE3908B1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC6199FD0051575A8EAF9B6C7CBBFEA /* Pods-iOS-Geolocation_ObjC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Geolocation_ObjC-frameworks.sh"; sourceTree = "<group>"; };
+		6EFDBDEE2513DBBFB894ABE9F9AF3BB7 /* Pods-iOS-Geolocation_ObjC-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Geolocation_ObjC-resources.sh"; sourceTree = "<group>"; };
+		8EB023DB00AF9497B402E39E085F8FEC /* Pods-iOS-Geolocation_ObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Geolocation_ObjC-dummy.m"; sourceTree = "<group>"; };
+		A829A5E43CFEC09E0BF118F76E8D5177 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		B489A25BCE3CBAED96215968EA3B54BB /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0372087943D51DC9523D7A95D7A3275 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		C137A4FCA08E32EC82D2DC36E2E13700 /* Pods-iOS-Geolocation_ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Geolocation_ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		C6540F957FEA0701E35DDA39EC673283 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD8CD0AF27F816A8A67D68CB2840C654 /* libPods-iOS-Geolocation_ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Geolocation_ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09B7F95B0B866B87A85B71B2D8295ED /* Pods-iOS-Geolocation_ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Geolocation_ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E579FF358AF2261C8682A7FA383EAA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4348FD8F988BEA5DEA81230CC86AE586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB16DE921CEEF5395E0C86FF80FBB5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0256465B38BD903DF946D1B1B352A87E /* Leanplum-iOS-Location */ = {
+			isa = PBXGroup;
+			children = (
+				D64570A1880E291999859F180FA9B57D /* Frameworks */,
+			);
+			path = "Leanplum-iOS-Location";
+			sourceTree = "<group>";
+		};
+		3C1F397DFCFC22FD2ADB831B480DB2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610B1EFBB457167B0C2B4F2FE3908B1B /* libPods.a */,
+				CD8CD0AF27F816A8A67D68CB2840C654 /* libPods-iOS-Geolocation_ObjC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F6D331F03A8E42D087DF902FD46383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0469ABEE63A932EC953BC8C596F57913 /* Leanplum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72DAF68BB173F41FF5D78F65935BDC61 /* Leanplum-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				71F6D331F03A8E42D087DF902FD46383 /* Frameworks */,
+			);
+			path = "Leanplum-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E42D0E9775D3CFCA9BFA14B95B28045F /* Pods */,
+				3C1F397DFCFC22FD2ADB831B480DB2AE /* Products */,
+				CC63D173A2BD333EE937803505DB2AA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A18A048724B3F50DB6FB55DADB0E93FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6540F957FEA0701E35DDA39EC673283 /* Pods-acknowledgements.markdown */,
+				08C9DA1F76CDA8E0ED8564CAF85224DB /* Pods-acknowledgements.plist */,
+				B489A25BCE3CBAED96215968EA3B54BB /* Pods-dummy.m */,
+				A829A5E43CFEC09E0BF118F76E8D5177 /* Pods-frameworks.sh */,
+				12931EFFC792068AFFB6F94EC07B668E /* Pods-resources.sh */,
+				3CDEF82A298427FE4B439DFB7314870D /* Pods.debug.xcconfig */,
+				C0372087943D51DC9523D7A95D7A3275 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC63D173A2BD333EE937803505DB2AA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A18A048724B3F50DB6FB55DADB0E93FC /* Pods */,
+				D6C81C74FF581DB0609F5541201147F4 /* Pods-iOS-Geolocation_ObjC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D64570A1880E291999859F180FA9B57D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC793CE56A4A90EBED31846723584FB /* LeanplumLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6C81C74FF581DB0609F5541201147F4 /* Pods-iOS-Geolocation_ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				25DF44283720AFBFA00B78E10F4F859D /* Pods-iOS-Geolocation_ObjC-acknowledgements.markdown */,
+				4036304D2CE0F348FAA3C1E5D6F47603 /* Pods-iOS-Geolocation_ObjC-acknowledgements.plist */,
+				8EB023DB00AF9497B402E39E085F8FEC /* Pods-iOS-Geolocation_ObjC-dummy.m */,
+				6BC6199FD0051575A8EAF9B6C7CBBFEA /* Pods-iOS-Geolocation_ObjC-frameworks.sh */,
+				6EFDBDEE2513DBBFB894ABE9F9AF3BB7 /* Pods-iOS-Geolocation_ObjC-resources.sh */,
+				F09B7F95B0B866B87A85B71B2D8295ED /* Pods-iOS-Geolocation_ObjC.debug.xcconfig */,
+				C137A4FCA08E32EC82D2DC36E2E13700 /* Pods-iOS-Geolocation_ObjC.release.xcconfig */,
+			);
+			name = "Pods-iOS-Geolocation_ObjC";
+			path = "Target Support Files/Pods-iOS-Geolocation_ObjC";
+			sourceTree = "<group>";
+		};
+		E42D0E9775D3CFCA9BFA14B95B28045F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0256465B38BD903DF946D1B1B352A87E /* Leanplum-iOS-Location */,
+				72DAF68BB173F41FF5D78F65935BDC61 /* Leanplum-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1469924FC52F60B0068FA24EEFCB3EFC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				60DB2522D6809309FA2F3B04848E7536 /* Sources */,
+				2E78C4AC537A1782BCFD134B2B8940E0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 610B1EFBB457167B0C2B4F2FE3908B1B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E8807B956E6836F2C8A69480AC2C3B76 /* Pods-iOS-Geolocation_ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2748A9865A010E8300597B16B0DA0EB7 /* Build configuration list for PBXNativeTarget "Pods-iOS-Geolocation_ObjC" */;
+			buildPhases = (
+				8B61AA44FB8102101A6204BA091BA0BA /* Sources */,
+				4348FD8F988BEA5DEA81230CC86AE586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iOS-Geolocation_ObjC";
+			productName = "Pods-iOS-Geolocation_ObjC";
+			productReference = CD8CD0AF27F816A8A67D68CB2840C654 /* libPods-iOS-Geolocation_ObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C1F397DFCFC22FD2ADB831B480DB2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1469924FC52F60B0068FA24EEFCB3EFC /* Pods */,
+				E8807B956E6836F2C8A69480AC2C3B76 /* Pods-iOS-Geolocation_ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DB2522D6809309FA2F3B04848E7536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B991A49F4C12A4F8462C02B69D83DB11 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B61AA44FB8102101A6204BA091BA0BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564BA8775B034FDB6350CE56B771295D /* Pods-iOS-Geolocation_ObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		72E8A7E2EB0F359B3DCF27423AF746C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDEF82A298427FE4B439DFB7314870D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		953A92A0DF7CDEE4260B405D022BDB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0372087943D51DC9523D7A95D7A3275 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A7EEC2DC9FEAEE317F5060D581352A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09B7F95B0B866B87A85B71B2D8295ED /* Pods-iOS-Geolocation_ObjC.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D74E96B73A4BBB20ACF160E658FB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C137A4FCA08E32EC82D2DC36E2E13700 /* Pods-iOS-Geolocation_ObjC.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2748A9865A010E8300597B16B0DA0EB7 /* Build configuration list for PBXNativeTarget "Pods-iOS-Geolocation_ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EEC2DC9FEAEE317F5060D581352A62 /* Debug */,
+				F2D74E96B73A4BBB20ACF160E658FB25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C358AA8BB91700063133597D41C4E0E /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72E8A7E2EB0F359B3DCF27423AF746C0 /* Debug */,
+				953A92A0DF7CDEE4260B405D022BDB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
