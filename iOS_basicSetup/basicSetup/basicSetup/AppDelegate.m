@@ -21,11 +21,18 @@
     
 #ifdef DEBUG
     LEANPLUM_USE_ADVERTISING_ID;
-    [Leanplum setAppId:@"APP_KEY" withDevelopmentKey:@"DEV_KEY"];
+    [Leanplum setAppId:@"" withDevelopmentKey:@""];
 #else
-    [Leanplum setAppId:@"APP_KEY" withProductionKey:@"PROD_KEY"];
+    [Leanplum setAppId:@"" withProductionKey:@""];
 #endif
 
+    
+    // In case a DeviceID needs to be customized, it should be put here, before [Leanplum start].
+    // setDeviceID will pass a DeviceID as string and set it only when the app is installed from scratch.
+    // Is not possible to change the DeviceID of an already installed application.
+    
+//     [Leanplum setDeviceId:@"new_DeviceID"];
+    
     [Leanplum start];
     
     return YES;
