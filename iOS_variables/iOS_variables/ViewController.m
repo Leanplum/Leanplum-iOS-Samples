@@ -33,8 +33,8 @@ NSString *myText = @"your  long text here";
     
     self.view.backgroundColor = [UIColor grayColor];
     self.myTextView = [[UITextView alloc] initWithFrame:self.view.bounds];
-    self.myTextView.text = @"\n\nLEANPLUM\nInstrumenting Variables and retrieving their values\n\nVariables in this sample are defined in different classes.\nTheir value is then returned from inside a callback. ";
-    self.myTextView.font = [UIFont systemFontOfSize:16.0f];
+    self.myTextView.text = @"\nLEANPLUM\nInstrumenting Variables and retrieving their values\n\nVariables in this sample are defined in different classes.\nTheir values are then returned from inside a callback.\nThe following image and the text string below can be changed from the Leanplum Dashboard\n\nOther variables values defined are being displayed in Console Log.";
+    self.myTextView.font = [UIFont systemFontOfSize:14.0f];
     self.myTextView.editable = NO;
     [self.view addSubview:self.myTextView];
     
