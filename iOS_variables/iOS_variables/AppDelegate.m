@@ -15,6 +15,7 @@
 @end
 
 DEFINE_VAR_STRING(welcomeMessage, @"Welcome to Leanplum!");
+DEFINE_VAR_BOOL(showAds, false);
 DEFINE_VAR_FLOAT(floatvar, 1.5);
 DEFINE_VAR_INT(intvalue, 20);
 
@@ -27,12 +28,7 @@ DEFINE_VAR_DICTIONARY_WITH_OBJECTS_AND_KEYS(
                                             nil);
 
 
-
-
-
-
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -44,14 +40,14 @@ DEFINE_VAR_DICTIONARY_WITH_OBJECTS_AND_KEYS(
     [Leanplum setAppId:@"" withProductionKey:@""];
 #endif
     
-    [Leanplum onVariablesChangedAndNoDownloadsPending:^{
+    [Leanplum onVariablesChanged:^{
         NSLog(@"%@", welcomeMessage.stringValue);
+        NSLog(@" %s", showAds.boolValue ? "true" : "false");
         NSLog(@"%0.1f", floatvar.floatValue);
         NSLog(@"%d", intvalue.intValue);
         NSLog(@"%2f", [[powerup objectForKey:@"speedMultiplier"] floatValue]);
     }];
 
-    
     
     [Leanplum start];
 
