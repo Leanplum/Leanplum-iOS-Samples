@@ -57,8 +57,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo
 fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     NSString *messageTitle = [[userInfo objectForKey:@"aps"] objectForKey:@"alert"];
-    NSString *stringData = [userInfo objectForKey:@"stringData"];
-    
+    NSString *String_name = [userInfo objectForKey:@"String_name"];
 }
 
 @end
