@@ -28,24 +28,13 @@ DEFINE_VAR_FILE(goldStar, @"goldstar.jpg");  // Location of Gold Star image file
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
     
-    // Allocating an ImageView initializing it using the 'snoopy.png' image file
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50,150,75,75)];
+    imageView.image = [UIImage imageNamed:@"leanplumlogo.png"];
     
-    
-//    UILabel *introLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 20, 350, 200)];
-//    introLabel.numberOfLines = 4;
-//    introLabel.adjustsFontSizeToFitWidth = true;
-//    intro
-//    introLabel.lineBreakMode = NSLineBreakByCharWrapping;
-//    introLabel.text = @"  - Leanplum -\n\nResource Sync sample\nCheck the Leanplum Dashboard for the file being synced and try swapping in/out resources";
-//    [self.view addSubview:introLabel];
-    
-    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(50,150,50,50)];
-//    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"snoopy"]] ;
-    
-    imageView.image = [UIImage imageNamed:@"snoopy"];
     // Allocating an ImageView only specifying the RectSize
-    UIImageView *goldStarImage = [[UIImageView alloc] initWithFrame:CGRectMake(50, 220, 50, 50)];
+    UIImageView *goldStarImage = [[UIImageView alloc] initWithFrame:CGRectMake(50, 250, 50, 50)];
     
     
     [Leanplum onVariablesChangedAndNoDownloadsPending:^() {

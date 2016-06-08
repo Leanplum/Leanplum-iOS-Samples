@@ -15,8 +15,8 @@
 		8BD6164C1D0793BE0044CC79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6164B1D0793BE0044CC79 /* Assets.xcassets */; };
 		8BD6164F1D0793BE0044CC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6164D1D0793BE0044CC79 /* LaunchScreen.storyboard */; };
 		8BD616571D0794CA0044CC79 /* testJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BD616561D0794CA0044CC79 /* testJSON.json */; };
-		8BD616591D0794D40044CC79 /* snoopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD616581D0794D40044CC79 /* snoopy.png */; };
 		8BD6165D1D079BCD0044CC79 /* goldstar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6165C1D079BCD0044CC79 /* goldstar.jpg */; };
+		8BD6165F1D07CCC50044CC79 /* leanplumlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BD6165E1D07CCC50044CC79 /* leanplumlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		8BD6164E1D0793BE0044CC79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD616501D0793BE0044CC79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD616561D0794CA0044CC79 /* testJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testJSON.json; sourceTree = "<group>"; };
-		8BD616581D0794D40044CC79 /* snoopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snoopy.png; sourceTree = "<group>"; };
 		8BD6165C1D079BCD0044CC79 /* goldstar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldstar.jpg; sourceTree = "<group>"; };
+		8BD6165E1D07CCC50044CC79 /* leanplumlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leanplumlogo.png; sourceTree = "<group>"; };
 		AEFBCCE12717CA4B4F8BA374 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C7C0B076CDD71F1A86292167 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				8BD616561D0794CA0044CC79 /* testJSON.json */,
-				8BD616581D0794D40044CC79 /* snoopy.png */,
+				8BD6165E1D07CCC50044CC79 /* leanplumlogo.png */,
 				8BD6165C1D079BCD0044CC79 /* goldstar.jpg */,
 				8BD6163E1D0793BE0044CC79 /* iOS_resourceSyncing */,
 				8BD6163D1D0793BE0044CC79 /* Products */,
@@ -173,8 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD6164F1D0793BE0044CC79 /* LaunchScreen.storyboard in Resources */,
-				8BD616591D0794D40044CC79 /* snoopy.png in Resources */,
 				8BD6164C1D0793BE0044CC79 /* Assets.xcassets in Resources */,
+				8BD6165F1D07CCC50044CC79 /* leanplumlogo.png in Resources */,
 				8BD6164A1D0793BE0044CC79 /* Main.storyboard in Resources */,
 				8BD616571D0794CA0044CC79 /* testJSON.json in Resources */,
 				8BD6165D1D079BCD0044CC79 /* goldstar.jpg in Resources */,
