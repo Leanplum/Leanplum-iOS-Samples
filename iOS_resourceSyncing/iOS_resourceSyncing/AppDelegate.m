@@ -44,14 +44,13 @@
         // If then you change the JSON file on the Dashboard and restart the app, the new file will be used (try to use another JSON file with a different 'age' value for example
        
         NSString *filePath = [[NSBundle mainBundle] pathForResource:@"testJSON" ofType:@"json"];
+        
         NSData *myData = [NSData dataWithContentsOfFile:filePath];
         if (myData) {
             NSArray *json = [NSJSONSerialization JSONObjectWithData:myData options:kNilOptions error:nil];
             NSString *age = json[0][@"person"][@"age"];
             NSLog(@"### Test JSON. Age value is: %@", age);
         }
-        
-        
     }];
     
     [Leanplum start];
