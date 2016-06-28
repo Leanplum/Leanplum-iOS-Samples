@@ -10,32 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0256465B38BD903DF946D1B1B352A87E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D64570A1880E291999859F180FA9B57D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Leanplum-iOS-Location</string>
-			<key>path</key>
-			<string>Leanplum-iOS-Location</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0469ABEE63A932EC953BC8C596F57913</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>Leanplum.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -279,6 +253,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>435F9ECD0DBEA42EA5703671900EF31B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>path</key>
+			<string>Leanplum.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>48B6CD0191C90018857C5358CB06EF0A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>80267B386513FCF050FC3AE278B94411</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>4CC323085B06C8C9F529FC88626759DB</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -420,17 +418,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5BC793CE56A4A90EBED31846723584FB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>path</key>
-			<string>LeanplumLocation.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5C358AA8BB91700063133597D41C4E0E</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -457,6 +444,35 @@
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>624A0EF981786F48CE41E7156C2D85E7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>48B6CD0191C90018857C5358CB06EF0A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Leanplum-iOS-Location</string>
+			<key>path</key>
+			<string>Leanplum-iOS-Location</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>628691527CC649A4D5207F11275E2253</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>624A0EF981786F48CE41E7156C2D85E7</string>
+				<string>7A6266AA74CBC47C7BA23CED7672A827</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>6CC7AFC933B72F92EC2239C97A30A4EB</key>
 		<dict>
@@ -493,31 +509,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>71F6D331F03A8E42D087DF902FD46383</key>
+		<key>756B827BA61CFF6F2EB872896D51901C</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>0469ABEE63A932EC953BC8C596F57913</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72DAF68BB173F41FF5D78F65935BDC61</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71F6D331F03A8E42D087DF902FD46383</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Leanplum-iOS-SDK</string>
+			<string>LPNewsfeed.h</string>
 			<key>path</key>
-			<string>Leanplum-iOS-SDK</string>
+			<string>Leanplum.framework/Headers/LPNewsfeed.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -527,6 +530,23 @@
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>7A6266AA74CBC47C7BA23CED7672A827</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8355092E537AE03189C382B0D22FF45D</string>
+				<string>756B827BA61CFF6F2EB872896D51901C</string>
+				<string>E290DB9715513F6A898B7420EB2E24C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Leanplum-iOS-SDK</string>
+			<key>path</key>
+			<string>Leanplum-iOS-SDK</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>7A94C5F17C97650354AADDA3942AABFB</key>
 		<dict>
@@ -566,12 +586,23 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>E42D0E9775D3CFCA9BFA14B95B28045F</string>
+				<string>628691527CC649A4D5207F11275E2253</string>
 				<string>38F7A4002B5114E075D161A978651533</string>
 				<string>F2B2B73D78AF358FDF1D629FD2B34DD0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80267B386513FCF050FC3AE278B94411</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>path</key>
+			<string>LeanplumLocation.framework</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -598,6 +629,21 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-basicSetup.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8355092E537AE03189C382B0D22FF45D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Leanplum.h</string>
+			<key>path</key>
+			<string>Leanplum.framework/Headers/Leanplum.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -866,30 +912,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D64570A1880E291999859F180FA9B57D</key>
+		<key>E290DB9715513F6A898B7420EB2E24C1</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>5BC793CE56A4A90EBED31846723584FB</string>
+				<string>435F9ECD0DBEA42EA5703671900EF31B</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E42D0E9775D3CFCA9BFA14B95B28045F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0256465B38BD903DF946D1B1B352A87E</string>
-				<string>72DAF68BB173F41FF5D78F65935BDC61</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
