@@ -14,8 +14,10 @@
 
 @implementation ViewController
 
--(void) pushButtonClicked:(UIButton*)sender
-{
+- (IBAction)inboxButton:(id)sender {
+}
+
+- (IBAction)pushButton:(id)sender {
     NSLog(@"you clicked on Push Notification registration button");
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
@@ -32,17 +34,10 @@
 }
 
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.    
     
-    UIButton *pushBut = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [pushBut addTarget:self action:@selector(pushButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [pushBut setFrame:CGRectMake(50, 50, 150, 30)];
-    [pushBut setTitle:@"Register for Push" forState:UIControlStateNormal];
-    [pushBut setExclusiveTouch:YES];
-    [self.view addSubview:pushBut];
 }
 
 - (void)didReceiveMemoryWarning {

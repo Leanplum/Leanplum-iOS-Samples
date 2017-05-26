@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Keys.h"
 #import <Leanplum/Leanplum.h>
 
 @interface AppDelegate ()
@@ -19,13 +20,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    // Define LP_APP_ID, LP_DEVELOPMENT_KEY and LP_PRODUCTION_KEY in Keys.h
 #ifdef DEBUG
     LEANPLUM_USE_ADVERTISING_ID;
-    [Leanplum setAppId:@"" withDevelopmentKey:@""];
+    [Leanplum setAppId:LP_APP_ID withDevelopmentKey:LP_DEVELOPMENT_KEY];
 #else
-    [Leanplum setAppId:@"" withProductionKey:@""];
+    [Leanplum setAppId:LP_APP_ID withProductionKey:LP_PRODUCTION_KEY];
 #endif
-
     
     // In case a DeviceID needs to be customized, it should be put here, before [Leanplum start].
     // setDeviceID will pass a DeviceID as string and set it only when the app is installed from scratch.
@@ -33,6 +34,7 @@
     
 //     [Leanplum setDeviceId:@"new_DeviceID"];
     
+    [Leanplum setVerboseLoggingInDevelopmentMode:YES];
     [Leanplum start];
     
     return YES;

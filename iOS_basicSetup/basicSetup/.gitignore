@@ -8,3 +8,6 @@ build
 CA360.xcodeproj/project.xcworkspace
 CA360.xcodeproj/xcuserdata
 Classes/Configure.h
+xcuserdata/
+Pods/
+Keys.h
