@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EA49C6D024FF28A539B756972C925E5E85EF7729",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EA49C6D024FF28A539B756972C925E5E85EF7729" : 9223372036854775807,
+    "D5BABFBE0E472B0458FDD9F1CFCDF1AE829CA685" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12534829-E4E9-4863-A115-94C3B9FA3A07",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EA49C6D024FF28A539B756972C925E5E85EF7729" : "Leanplum-iOS-Samples\/",
+    "D5BABFBE0E472B0458FDD9F1CFCDF1AE829CA685" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSCustomIAMDelegate",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSCustomIAMDelegate\/iOSCustomIAMDelegate.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Leanplum\/Leanplum-Android-Samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D5BABFBE0E472B0458FDD9F1CFCDF1AE829CA685"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Leanplum\/Leanplum-iOS-Samples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA49C6D024FF28A539B756972C925E5E85EF7729"
+    }
+  ]
+}
