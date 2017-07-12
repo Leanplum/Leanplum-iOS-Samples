@@ -24,14 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #if DEBUG
             Leanplum.setDeviceId(ASIdentifierManager.shared().advertisingIdentifier.uuidString)
             Leanplum.setAppId(Keys.LP_APP_ID,
-                              withDevelopmentKey:Keys.LP_DEVELOPMENT_KEY)
+                              withDevelopmentKey: Keys.LP_DEVELOPMENT_KEY)
         #else
             Leanplum.setAppId(Keys.LP_APP_ID,
                               withProductionKey: Keys.LP_PRODUCTION_KEY)
         #endif
         
         Leanplum.setVerboseLoggingInDevelopmentMode(true)
-        Leanplum.start()
+        Leanplum.start(withUserId: Keys.LP_USER)
         
         return true
     }

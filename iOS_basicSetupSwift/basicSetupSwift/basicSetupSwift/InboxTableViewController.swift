@@ -16,25 +16,35 @@ class InboxTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let inbox: LPInbox = Leanplum.inbox()
-        
-        inbox.onChanged {
-            
-            self.inboxMessages = inbox.allMessages() as! [LPInboxMessage]
-            
-            // Re-sort the messages to newest first.
-            self.inboxMessages.sort(by: { (message1, message2) -> Bool in
-                let first: Date = message1.deliveryTimestamp()
-                let second: Date = message2.deliveryTimestamp()
-                return first > second
-            })
-            
-            self.tableView.reloadSections(NSIndexSet.init(index: 0) as IndexSet, with: UITableViewRowAnimation.automatic)
-        }
+        self.drawTable()
         
         // Hide unused cell lines from tableview with an overlapping view.
         self.tableView.tableFooterView = UIView.init()
+    }
+    
+    // Override to call whenever the view appears
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(false)
         
+        Leanplum.inbox().onChanged {
+            self.drawTable()
+        }
+        
+    }
+    
+    func drawTable(){
+        let inbox: LPInbox = Leanplum.inbox()
+        
+        self.inboxMessages = inbox.allMessages() as! [LPInboxMessage]
+        
+        // Re-sort the messages to newest first.
+        self.inboxMessages.sort(by: { (message1, message2) -> Bool in
+            let first: Date = message1.deliveryTimestamp()
+                let second: Date = message2.deliveryTimestamp()
+        return first > second
+        })
+        
+        self.tableView.reloadSections(NSIndexSet.init(index: 0) as IndexSet, with: UITableViewRowAnimation.automatic)
     }
 
     override func didReceiveMemoryWarning() {
