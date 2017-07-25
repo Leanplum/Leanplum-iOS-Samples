@@ -16,17 +16,16 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     // Define LP_APP_ID, LP_DEVELOPMENT_KEY and LP_PRODUCTION_KEY in Keys.h
-#ifdef DEBUG
-    LEANPLUM_USE_ADVERTISING_ID;
-    [Leanplum setAppId:LP_APP_ID withDevelopmentKey:LP_DEVELOPMENT_KEY];
-#else
-    [Leanplum setAppId:LP_APP_ID withProductionKey:LP_PRODUCTION_KEY];
-#endif
+    #ifdef DEBUG
+        LEANPLUM_USE_ADVERTISING_ID;
+        [Leanplum setAppId:LP_APP_ID withDevelopmentKey:LP_DEVELOPMENT_KEY];
+    #else
+        [Leanplum setAppId:LP_APP_ID withProductionKey:LP_PRODUCTION_KEY];
+    #endif
     
     // In case a DeviceID needs to be customized, it should be put here, before [Leanplum start].
     // setDeviceID will pass a DeviceID as string and set it only when the app is installed from scratch.
@@ -56,6 +55,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Clear app badge on start or resume.
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
@@ -65,9 +66,11 @@
 
 //(Optional) You may choose to enable the Remote Notifications background mode on iOS 7+ to preload the notification action. This is configurable in your XCode project settings > Capabilities > Background Modes. If you have this enabled, you must tell Leanplum to explicitly handle notifications in your app delegate:
 
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-    [Leanplum handleNotification:userInfo fetchCompletionHandler:completionHandler];
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    NSInteger badge = [[UIApplication sharedApplication] applicationIconBadgeNumber];
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber: badge + 1];
+    
+    completionHandler(UIBackgroundFetchResultNewData);
 }
 
 @end

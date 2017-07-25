@@ -20,10 +20,11 @@ class ViewController: UIViewController {
         print("you clicked on Push Notification registration button")
         registerForPushNotifications()
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
